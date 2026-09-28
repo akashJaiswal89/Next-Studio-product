@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f4f5f7"/></linearGradient></defs>
+<rect width="800" height="700" rx="28" fill="url(#bg)"/>
+<ellipse cx="400" cy="635" rx="250" ry="25" fill="#dfe3e8"/>
+<rect x="190" y="150" width="420" height="400" rx="16" fill="#e7e7e7" stroke="#20252b" stroke-width="14"/><rect x="235" y="110" width="330" height="60" rx="25" fill="#20252b"/><circle cx="270" cy="140" r="14" fill="#D9A52B"/><path d="M235 550h330" stroke="#D9A52B" stroke-width="16"/>
+<text x="400" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#20252b">Studio Backdrop Stand (9x12 ft) - Frame Mo</text>
+</svg>
