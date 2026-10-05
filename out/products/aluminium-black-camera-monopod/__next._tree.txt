@@ -1,0 +1,4 @@
+:HL["/_next/static/chunks/1i2dftazwt1hp.css","style"]
+:HL["/assets/logo.jpg","image"]
+:HL["/assets/products/aluminium-black-camera-monopod.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"products","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"aluminium-black-camera-monopod","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"AgOb4HX4_g6vawm9r7Q7v"}

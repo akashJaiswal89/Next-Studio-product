@@ -1,4 +1,28 @@
+﻿import Link from "next/link";
+import ServiceCard from "../../components/ServiceCard";
+import { services } from "../../data/services";
 
-export const metadata={title:"Photography Studio Setup Services",description:"Tanisa Enterprises provides photography and studio setup support for green screens, lighting, backdrops, institutions, newsrooms and corporate production."};
-const services=["Green Screen Studio Setup","Studio Lighting Setup","Photography Studio Setup","Backdrop Installation","Event & Corporate Studio Setup","Institutional Media Setup"];
-export default function Services(){return <main><section className="page-hero"><div className="container"><div className="breadcrumb">Home / Services</div><h1>Photography Studio Setup Services</h1><p className="muted">Equipment sourcing and practical setup support for professional photography, video production and institutional media environments.</p></div></section><section className="section"><div className="container grid3">{services.map((s,i)=><article className="card service-card" key={s}><div className="card-img"><img src={`/assets/services/service-${i+1}.svg`} alt={s}/></div><div className="card-body"><h3>{s}</h3><p className="muted">We help plan equipment requirements, supply the required products and support the physical studio setup.</p></div></article>)}</div></section><section className="section soft"><div className="container"><div className="cta"><div className="eyebrow">Institutional & Bulk Requirements</div><h2>Planning a studio or media setup?</h2><p>Share your room size, intended use, equipment list or tender requirement and we can prepare an equipment-focused enquiry.</p><a className="btn primary" href="/contact">Talk to Tanisa Enterprises →</a></div></div></section></main>}
+export const metadata = {
+  title: "Photography Studio Setup Services",
+  description: "Automatic and manual backdrop changers, chroma backgrounds, lighting and studio setup support from Tanisa Enterprises.",
+};
+
+export default function Services() {
+  return <main>
+    <section className="page-hero"><div className="container">
+      <div className="breadcrumb"><Link href="/">Home</Link> / Services</div>
+      <div className="eyebrow">From equipment to installation</div>
+      <h1>Photography Studio Setup Services</h1>
+      <p className="muted">Automatic and manual backdrop systems, chroma backgrounds and practical setup support for your studio. Tell us about your space and we will help you choose the equipment.</p>
+    </div></section>
+    <section className="section"><div className="container grid3 services-grid">
+      {services.map(service => <ServiceCard key={service.name} service={service} />)}
+    </div></section>
+    <section className="section soft"><div className="container"><div className="cta">
+      <div className="eyebrow">Institutional & Bulk Requirements</div>
+      <h2>Planning a studio or media setup?</h2>
+      <p>Share your room size, preferred backdrop colours and equipment requirements so we can help plan your setup.</p>
+      <Link className="btn primary" href="/contact">Talk to Tanisa Enterprises →</Link>
+    </div></div></section>
+  </main>;
+}

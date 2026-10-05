@@ -1,6 +1,7 @@
 
 import {MetadataRoute} from "next";
 import {products,categories} from "../data/products";
+export const dynamic = "force-static";
 export default function sitemap():MetadataRoute.Sitemap{
  const base="https://www.tanisaenterprises.com";
  return [

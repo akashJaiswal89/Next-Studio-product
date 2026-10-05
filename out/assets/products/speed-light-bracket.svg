@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f4f5f7"/></linearGradient></defs>
+<rect width="800" height="700" rx="28" fill="url(#bg)"/>
+<ellipse cx="400" cy="635" rx="250" ry="25" fill="#dfe3e8"/>
+<path d="M250 170l220 120-100 180-220-120z" fill="#20252b"/><circle cx="330" cy="245" r="42" fill="none" stroke="#D9A52B" stroke-width="16"/><path d="M500 200l110 60-80 150-110-60z" fill="#3b424b"/><circle cx="540" cy="245" r="24" fill="#D9A52B"/>
+<text x="400" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#20252b">Speed Light Bracket</text>
+</svg>

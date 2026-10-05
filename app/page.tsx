@@ -1,7 +1,10 @@
 
 import Link from "next/link";
+import { ArrowUpRight, ArrowRight } from "lucide-react";
 import ProductCard from "../components/ProductCard";
 import ProjectsCarousel from "../components/ProjectsCarousel";
+import ServiceCard from "../components/ServiceCard";
+import { services } from "../data/services";
 import {categories,products} from "../data/products";
 const WHATSAPP_NUMBER="918076900434";
 
@@ -27,14 +30,14 @@ export default function Home(){
 
   <ProjectsCarousel />
 
-  <section className="section"><div className="container"><div className="section-head"><div><div className="eyebrow">Categories</div><h2>Shop by Category</h2><p className="muted">Explore photography backdrops, accessories, lights and professional stands.</p></div><Link href="/products">View all products →</Link></div>
-   <div className="grid4">{categories.map(c=><Link className="card" href={`/categories/${c.slug}`} key={c.slug}><div className="card-img"><img src={c.image} alt={c.name}/></div><div className="card-body"><h3>{c.name}</h3><p className="muted">{c.count} items</p></div></Link>)}</div>
+  <section className="section" aria-labelledby="categories-heading"><div className="container"><div className="catalogue-heading"><div><div className="eyebrow">Find your studio essentials</div><h2 id="categories-heading">Shop by Category<span>.</span></h2><p>Build your setup, one essential at a time. Explore backdrops, lighting and the supports that bring every shoot together.</p></div><Link className="catalogue-link" href="/products">View all products <ArrowRight size={16} aria-hidden="true" /></Link></div>
+   <div className="grid4 category-grid">{categories.map(c=><Link className="category-card" href={`/categories/${c.slug}`} key={c.slug}><div className="category-image"><img src={c.image} alt={c.name} loading="lazy"/><span className="category-count">{c.count} products</span></div><div className="category-body"><h3>{c.name}</h3><p>{c.description}</p><div className="category-footer">Explore collection <span><ArrowUpRight size={18} aria-hidden="true" /></span></div></div></Link>)}</div>
   </div></section>
 
-  <section className="section soft"><div className="container"><div className="section-head"><div><div className="eyebrow">Featured Products</div><h2>Our Products</h2><p className="muted">Wholesale photography equipment for professionals, businesses and institutions.</p></div><Link href="/products">Browse catalogue →</Link></div><div className="product-grid">{featured.map(p=><ProductCard key={p.slug} p={p}/>)}</div></div></section>
+  <section className="section catalogue-section" aria-labelledby="products-heading"><div className="container"><div className="catalogue-heading"><div><div className="eyebrow">Equipment behind every great shoot</div><h2 id="products-heading">Our Products<span>.</span></h2><p>From your first backdrop to a complete studio, discover equipment for portraits, product photography and video production.</p></div><Link className="catalogue-link" href="/products">Browse catalogue <ArrowRight size={16} aria-hidden="true" /></Link></div><div className="product-grid">{featured.map(p=><ProductCard key={p.slug} p={p}/>)}</div></div></section>
 
-  <section className="section"><div className="container"><div className="section-head"><div><div className="eyebrow">Services</div><h2>Photography & Studio Setup Services</h2><p className="muted">Equipment supply and setup support for studios, news channels, educational institutions and corporate environments.</p></div><Link href="/services">View services →</Link></div>
-   <div className="grid3">{["Green Screen Studio Setup","Studio Lighting Setup","Backdrop Installation"].map((s,i)=><article className="card service-card" key={s}><div className="card-img"><img src={`/assets/services/service-${i+1}.svg`} alt={s}/></div><div className="card-body"><h3>{s}</h3><p className="muted">Planning, equipment supply and practical setup support tailored to the production environment.</p></div></article>)}</div>
+  <section className="section"><div className="container"><div className="catalogue-heading"><div><div className="eyebrow">Bring your studio to life</div><h2>Studio Setup Services<span>.</span></h2><p>From equipment selection to installation, we help studios, classrooms and broadcast teams create a space ready for production.</p></div><Link className="catalogue-link" href="/services">View services <ArrowRight size={16} aria-hidden="true" /></Link></div>
+   <div className="grid3 services-grid">{services.slice(0,6).map(service => <ServiceCard key={service.name} service={service} />)}</div>
   </div></section>
 
  </main></>
