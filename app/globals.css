@@ -126,8 +126,8 @@
 .project-equipment img{display:block;width:100%;aspect-ratio:1;object-fit:contain;mix-blend-mode:multiply}
 .project-equipment>span{font-size:10px;color:#68717a;text-align:center;margin-top:12px;line-height:1.7}
 .service-card{display:flex;flex-direction:column}
-.service-card .card-img{height:200px;padding:16px;background:#f8f8f5;border-bottom:1px solid #eee}
-.service-card .card-img img{height:100%;mix-blend-mode:multiply}
+.service-card .card-img{height:auto;aspect-ratio:3/2;overflow:hidden;background:#f8f8f5;border-bottom:1px solid #eee}
+.service-card .card-img img{display:block;height:100%;object-fit:cover}
 .service-card .card-body{display:flex;flex-direction:column;flex:1;padding:22px}
 .service-category{margin-bottom:9px;color:#826015;font-size:10px;font-weight:600;letter-spacing:.07em;text-transform:uppercase}
 .service-card h3{font-size:19px;line-height:1.4;font-weight:600}

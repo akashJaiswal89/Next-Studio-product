@@ -1,0 +1,46 @@
+{
+  "generator": "Built-in image_gen",
+  "note": "Original AI-generated illustrative service images, not photographs of actual client installations.",
+  "images": [
+    {
+      "slug": "automatic-backdrop-changer",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 website service card photograph. Create an original realistic photograph of an automatic motorised backdrop changer installed in a modest professional Indian photography studio. Three horizontal full-width backdrop rolls mounted securely near the ceiling on metal brackets, green backdrop lowered to the floor with grey and red rolls neatly above, visible motor units at roller ends and a small wall control, a single softbox at the edge. Believable real installed equipment, natural window light, slight everyday wear, documentary interior photography, no CGI or illustration, no text, no logos, no watermark. Wide composition with main equipment centered and safe margins for cropping.",
+      "output": "public/assets/services/automatic-backdrop-changer.webp"
+    },
+    {
+      "slug": "manual-backdrop-changer",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 website service card photograph. Primary request: Create an original natural realistic photo, as if a person photographed a completed studio installation. Scene: A manually operated wall-mounted three-roll photography backdrop support system in a modest Indian studio. White paper backdrop lowered in a smooth sweep onto floor, blue and tan rolls above, realistic metal brackets and clearly visible hanging loop chains with weights on the right side, no electric motors. One folded reflector nearby. Style: documentary interior photography, natural daylight mixed with practical studio lights, realistic materials and subtle everyday wear, accurate equipment proportions, moderately wide lens, main subjects centered with safe margins for website cropping. No text, logos, watermark, collage, CGI or illustration.",
+      "output": "public/assets/services/manual-backdrop-changer.webp"
+    },
+    {
+      "slug": "green-screen-chroma-setup",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 website service card photograph. Primary request: Create an original natural realistic photo, as if a person photographed a completed studio installation. Scene: A working Indian video studio with a full-width matte green chroma backdrop curved onto floor, two rectangular softboxes aimed evenly at the backdrop, a camera on tripod in the foreground aimed toward the empty green presentation area. Practical tidy setup, green surface evenly illuminated. Style: documentary interior photography, natural daylight mixed with practical studio lights, realistic materials and subtle everyday wear, accurate equipment proportions, moderately wide lens, main subjects centered with safe margins for website cropping. No text, logos, watermark, collage, CGI or illustration.",
+      "output": "public/assets/services/green-screen-chroma-setup.webp"
+    },
+    {
+      "slug": "studio-lighting-setup",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 website service card photograph. Primary request: Create an original natural realistic photo, as if a person photographed a completed studio installation. Scene: Professional photography lighting installation in a modest Indian studio: large octagonal softbox on a sturdy stand to left, rectangular LED panel and strip softbox to right, overhead light on secure ceiling rail with pantograph support, grey background and a small posing stool, visible believable stands and neatly managed cables. Focus on the lighting equipment. Style: documentary interior photography, natural daylight mixed with practical studio lights, realistic materials and subtle everyday wear, accurate equipment proportions, moderately wide lens, main subjects centered with safe margins for website cropping. No text, logos, watermark, collage, CGI or illustration.",
+      "output": "public/assets/services/studio-lighting-setup.webp"
+    },
+    {
+      "slug": "photography-studio-setup",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 website service card photograph. Primary request: Create an original natural realistic photo, as if a person photographed a completed studio installation. Scene: A complete modest modern Indian portrait photography studio photographed from its entrance: warm beige seamless backdrop, simple wooden posing stool, two professional softboxes, camera on tripod, reflector, tidy shelves with a few lenses and accessories along side wall. Welcoming functional real room. Style: documentary interior photography, natural daylight mixed with practical studio lights, realistic materials and subtle everyday wear, accurate equipment proportions, moderately wide lens, main subjects centered with safe margins for website cropping. No text, logos, watermark, collage, CGI or illustration.",
+      "output": "public/assets/services/photography-studio-setup.webp"
+    },
+    {
+      "slug": "backdrop-installation",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 website service card photograph. Primary request: Create an original natural realistic photo, as if a person photographed a completed studio installation. Scene: Candid documentary photo of an Indian studio equipment technician standing on a stable stepladder installing a horizontal backdrop roller into wall brackets at reachable height. Three-quarter rear view, simple work shirt, anatomically natural hands, cream studio wall, securely mounted metal supports, rolled grey and green backdrops and neat tool bag nearby. Main focus is practical mounting hardware and installation work. Style: documentary interior photography, natural daylight mixed with practical studio lights, realistic materials and subtle everyday wear, accurate equipment proportions, moderately wide lens, main subjects centered with safe margins for website cropping. No text, logos, watermark, collage, CGI or illustration.",
+      "output": "public/assets/services/backdrop-installation.webp"
+    },
+    {
+      "slug": "event-corporate-studio-setup",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 website service card photograph. Primary request: Create an original natural realistic photo, as if a person photographed a completed studio installation. Scene: A small corporate interview video setup inside an Indian office meeting room, two comfortable interview chairs and small table, camera on tripod in foreground, two softbox lights, acoustic panels and glass office partitions in background. Polished but believable installed production equipment, warm neutral tones, no people. Style: documentary interior photography, natural daylight mixed with practical studio lights, realistic materials and subtle everyday wear, accurate equipment proportions, moderately wide lens, main subjects centered with safe margins for website cropping. No text, logos, watermark, collage, CGI or illustration.",
+      "output": "public/assets/services/event-corporate-studio-setup.webp"
+    },
+    {
+      "slug": "institutional-media-setup",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 website service card photograph. Primary request: Create an original natural realistic photo, as if a person photographed a completed studio installation. Scene: A compact educational recording studio at an Indian college: teacher's desk with laptop and gooseneck microphone, large blank dark teaching display, camera on tripod aimed at the teaching desk, two LED panel lights on sturdy stands, modest acoustic wall panels, tidy cable management. Practical real classroom media installation, no people. Style: documentary interior photography, natural daylight mixed with practical studio lights, realistic materials and subtle everyday wear, accurate equipment proportions, moderately wide lens, main subjects centered with safe margins for website cropping. No text, logos, watermark, collage, CGI or illustration.",
+      "output": "public/assets/services/institutional-media-setup.webp"
+    }
+  ]
+}

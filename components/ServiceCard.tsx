@@ -5,7 +5,7 @@ export default function ServiceCard({ service }: { service: StudioService }) {
   const message = `Hello Tanisa Enterprises, I am interested in ${service.name}. Please share the options, installation details and a quotation.`;
   return (
     <article className="card service-card">
-      <div className="card-img"><img src={service.image} alt={service.name} loading="lazy" /></div>
+      <div className="card-img"><img src={service.image} alt={service.name} width={1200} height={800} loading="lazy" decoding="async" /></div>
       <div className="card-body">
         <span className="service-category">{service.category}</span>
         <h3>{service.name}</h3>

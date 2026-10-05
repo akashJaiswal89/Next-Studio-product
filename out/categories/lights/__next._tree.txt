@@ -1,11 +1,3 @@
-:HL["/_next/static/chunks/1i2dftazwt1hp.css","style"]
+:HL["/_next/static/chunks/39--ks71i63fy.css","style"]
 :HL["/assets/logo.jpg","image"]
-:HL["/assets/products/photographic-pantograph-system-with-2-lights.jpg","image"]
-:HL["/assets/products/prota-light.jpg","image"]
-:HL["/assets/products/photo-studio-umbrella.jpg","image"]
-:HL["/assets/products/speed-light-bracket.jpg","image"]
-:HL["/assets/products/colour-flash-diffuser.jpg","image"]
-:HL["/assets/products/photography-barn-door.jpg","image"]
-:HL["/assets/products/video-light-led-studio-barndoor.jpg","image"]
-:HL["/assets/products/light-box.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"categories","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"lights","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"AgOb4HX4_g6vawm9r7Q7v"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"categories","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"lights","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"UjMEZF5HKZyYDwSoZHJNE"}
