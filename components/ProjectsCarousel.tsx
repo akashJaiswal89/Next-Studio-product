@@ -12,18 +12,18 @@ const projects = [
     services: ["Green chroma", "Studio lights", "Ceiling rails", "Pantograph mounts"],
   },
   {
-    name: "Central Institute of Educational Technology, NCERT",
-    location: "New Delhi",
-    image: "/assets/work/n.png",
-    description: "An educational production studio with a wide green chroma background and an overhead lighting grid. Suspended studio lights and adjustable mounts support flexible lighting for teaching and recording.",
-    services: ["Green chroma", "Studio lights", "Lighting grid", "Adjustable mounts"],
-  },
-  {
     name: "Times Now Navbharat",
     location: "Broadcast studio",
     image: "/assets/work/t.png",
     description: "A broadcast studio setup with a green chroma curtain, LED studio lights and overhead lighting supports. Freestanding lights provide additional control for presenter and news recording setups.",
     services: ["Green chroma", "LED lighting", "Ceiling supports", "Light stands"],
+  },
+  {
+    name: "Central Institute of Educational Technology, NCERT",
+    location: "New Delhi",
+    image: "/assets/work/n.png",
+    description: "An educational production studio with a wide green chroma background and an overhead lighting grid. Suspended studio lights and adjustable mounts support flexible lighting for teaching and recording.",
+    services: ["Green chroma", "Studio lights", "Lighting grid", "Adjustable mounts"],
   },
 ];
 
