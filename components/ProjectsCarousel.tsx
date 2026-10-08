@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Lightbulb, PanelTop, ScanLine, SlidersHorizontal, Pause, Play } from "lucide-react";
 
 const projects = [
@@ -32,8 +32,34 @@ const serviceIcons = [ScanLine, Lightbulb, PanelTop, SlidersHorizontal];
 export default function ProjectsCarousel() {
   const [hoverOffset, setHoverOffset] = useState<number | null>(null);
   const [paused, setPaused] = useState(false);
+  const viewportRef = useRef<HTMLDivElement>(null);
+  const touching = useRef(false);
+  const nextAdvance = useRef(0);
+
+  useEffect(() => {
+    if (paused) return;
+    const mobile = window.matchMedia("(max-width: 760px)");
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    nextAdvance.current = Date.now() + 4500;
+    const timer = window.setInterval(() => {
+      const viewport = viewportRef.current;
+      if (!viewport || !mobile.matches || reducedMotion.matches || document.hidden || touching.current || Date.now() < nextAdvance.current) return;
+      if (viewport.querySelector(":focus-visible")) return;
+
+      const cards = Array.from(viewport.querySelectorAll<HTMLElement>(".project-tape-group:first-child .project-showcase"));
+      const first = cards[0];
+      if (!first) return;
+      const maxScroll = viewport.scrollWidth - viewport.clientWidth;
+      const positions = cards.map(card => Math.min(maxScroll, card.getBoundingClientRect().left - first.getBoundingClientRect().left));
+      const next = positions.find(position => position > viewport.scrollLeft + 8) ?? 0;
+      nextAdvance.current = Date.now() + 4500;
+      viewport.scrollTo({ left: next, behavior: "smooth" });
+    }, 500);
+    return () => window.clearInterval(timer);
+  }, [paused]);
 
   const holdCard = (card: HTMLElement) => {
+    if (window.matchMedia("(max-width: 760px)").matches) return;
     const viewport = card.closest(".project-tape-viewport");
     const track = card.closest(".project-tape-track");
     if (!viewport || !track) return;
@@ -58,14 +84,23 @@ export default function ProjectsCarousel() {
           <h2 id="projects-heading">Our Work<span>.</span></h2>
           <p>From classrooms to broadcast studios, explore our studio setups and the equipment behind them.</p>
         </div>
-        <button className="project-motion-toggle" type="button" onClick={() => setPaused(!paused)} aria-pressed={paused} aria-label="Pause automatic project scrolling">
+        <button className="project-motion-toggle" type="button" onClick={() => setPaused(!paused)} aria-pressed={paused} aria-label={paused ? "Resume automatic project scrolling" : "Pause automatic project scrolling"}>
           {paused ? <Play size={16} aria-hidden="true" /> : <Pause size={16} aria-hidden="true" />}
           {paused ? "Resume" : "Pause"}
         </button>
         <span className="project-swipe-hint">Swipe to explore →</span>
       </div>
       <div className="projects-full-width">
-        <div className="project-tape-viewport" role="region" aria-label="Completed studio projects">
+        <div
+          ref={viewportRef}
+          className="project-tape-viewport"
+          role="region"
+          aria-label="Completed studio projects"
+          onPointerDown={() => { touching.current = true; }}
+          onPointerUp={() => { touching.current = false; nextAdvance.current = Date.now() + 4500; }}
+          onPointerCancel={() => { touching.current = false; nextAdvance.current = Date.now() + 4500; }}
+          onScroll={() => { nextAdvance.current = Date.now() + 4500; }}
+        >
           <div
             className={`project-tape-track${hoverOffset !== null || paused ? " is-paused" : ""}`}
             style={{
