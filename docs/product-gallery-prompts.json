@@ -1,0 +1,168 @@
+{
+  "note": "AI-generated illustrative gallery views. These are setup concepts, not photographs of an exact stocked SKU.",
+  "sharedPrompt": "Use case: product-mockup. Asset type: illustrative product detail gallery photo for {product}. Primary request: {scene}. Realistic product scale, mechanically plausible mounting, equipment as the visual focus. Style: high-quality photorealistic commercial studio photography. Composition: single 4:3 landscape photograph, clean and easy to understand, with enough context to show how the equipment is {installed and used | adjusted or attached}. Lighting: soft natural studio light. Constraints: show the named product clearly; avoid unrelated equipment taking over; no people, no text, logos, watermark, border, split screen, or collage.",
+  "products": [
+    {
+      "slug": "seamless-photography-paper",
+      "name": "Seamless Photography Paper",
+      "installedScene": "a neutral gray seamless paper roll mounted above a portrait studio and sweeping smoothly from wall to floor",
+      "detailScene": "a low three-quarter close view of the paper sweep, its clean matte texture and rolled top edge visible"
+    },
+    {
+      "slug": "green-screen-backdrop",
+      "name": "Green Screen Backdrop",
+      "installedScene": "a large evenly lit green fabric backdrop on a freestanding support behind a video camera setup",
+      "detailScene": "a closer side view of green fabric clipped taut to a support stand in a small video studio"
+    },
+    {
+      "slug": "chroma-green-screen",
+      "name": "Chroma Green Screen",
+      "installedScene": "a smooth bright chroma green backdrop installed behind a presenter area in a controlled video studio",
+      "detailScene": "a close perspective on the green screen surface and support edge with soft even studio lighting"
+    },
+    {
+      "slug": "kids-photography-backdrop",
+      "name": "Kids Photography Backdrop",
+      "installedScene": "a colorful but tasteful children's portrait backdrop installed in a photography studio with a small stool and softboxes",
+      "detailScene": "a closer angled view of the printed children's backdrop fabric and its hanging setup, no children"
+    },
+    {
+      "slug": "collapsible-twist-flex-backdrop",
+      "name": "Collapsible Twist Flex Backdrop",
+      "installedScene": "an oval collapsible pop-up photography backdrop fully opened behind a portrait stool in a compact studio",
+      "detailScene": "the same style of oval pop-up backdrop being folded and stored in its round carry bag on a studio floor"
+    },
+    {
+      "slug": "passport-photograph-change-system",
+      "name": "Passport Photograph Change System",
+      "installedScene": "a wall mounted pull-down three-color passport photo background system in a small ID portrait studio, with blue selected",
+      "detailScene": "a close angled view of the same pull-down backdrop's roller, wall brackets, and selectable neutral, red and blue panels"
+    },
+    {
+      "slug": "white-diffuser-cloth",
+      "name": "White Diffuser Cloth",
+      "installedScene": "translucent white diffuser cloth stretched on a frame between a studio light and a tabletop product setup",
+      "detailScene": "a close view of translucent white diffusion fabric softening a studio light, with visible weave and clean frame edge"
+    },
+    {
+      "slug": "studio-backdrop-stand-9x12-ft-frame-mounted-solid-color-non-reflective",
+      "name": "Studio Backdrop Stand (9x12 ft)",
+      "installedScene": "a wide freestanding rectangular backdrop frame with a solid non-reflective charcoal fabric installed for a studio portrait",
+      "detailScene": "a three-quarter view of the frame corners and taut matte solid-color backdrop, showing the supports"
+    },
+    {
+      "slug": "steel-photography-background-support-system-with-clamp-on-mount-max-load-15-kg",
+      "name": "Steel Photography Background Support System",
+      "installedScene": "a heavy steel background support with clamp-on mounts holding a neutral paper backdrop in a professional studio",
+      "detailScene": "a close view of the steel clamp-on mount gripping a support pole and the sturdy crossbar connection"
+    },
+    {
+      "slug": "motorised-background-system",
+      "name": "Motorised Background System",
+      "installedScene": "a ceiling mounted motorised background roll system with multiple paper rolls above a professional photography stage",
+      "detailScene": "a closer view of overhead motor drive brackets, paper rolls and a safe handheld remote control in a studio"
+    },
+    {
+      "slug": "backdrop-support-system",
+      "name": "Backdrop Support System",
+      "installedScene": "a two-stand horizontal backdrop support system holding a neutral fabric backdrop in a portrait studio",
+      "detailScene": "a close view of the adjustable support crossbar and a backdrop sleeve mounted over it"
+    },
+    {
+      "slug": "manual-background-support-system",
+      "name": "Manual Background Support System",
+      "installedScene": "a manual wall-mounted multi-roll backdrop support system with hand chains in a photography studio",
+      "detailScene": "a close angled view of the hand chain, brackets and roll mounting on a manual background system"
+    },
+    {
+      "slug": "super-clamps",
+      "name": "Super Clamps",
+      "installedScene": "a black metal super clamp securing a small studio accessory to a C stand pole in a photography studio",
+      "detailScene": "a macro photograph of a black super clamp's jaw, tightening screw and mounting stud on a metal pole"
+    },
+    {
+      "slug": "chroma-background-clip",
+      "name": "Chroma Background Clip",
+      "installedScene": "black backdrop clips fastening chroma green fabric neatly to a horizontal support pole in a video studio",
+      "detailScene": "a close-up of one strong background clip gripping green fabric against the support pole"
+    },
+    {
+      "slug": "umbrella-flash-bracket",
+      "name": "Umbrella Flash Bracket",
+      "installedScene": "a flash bracket holding a speedlight and white photo umbrella on a light stand beside a portrait setup",
+      "detailScene": "a close view of the bracket's flash shoe, umbrella shaft socket and tilt joint attached to a light stand"
+    },
+    {
+      "slug": "photographic-pantograph-system-with-2-lights",
+      "name": "Photographic Pantograph System with 2 Lights",
+      "installedScene": "two studio lights suspended on adjustable ceiling pantographs over a portrait photography area",
+      "detailScene": "a close angled view of an extended pantograph scissor arm and the suspended studio light fixture"
+    },
+    {
+      "slug": "prota-light",
+      "name": "Prota Light",
+      "installedScene": "a compact studio spotlight mounted high on a light stand illuminating a product photography table",
+      "detailScene": "a close three-quarter view of a compact professional photographic light head and its mounting yoke"
+    },
+    {
+      "slug": "photo-studio-umbrella",
+      "name": "Photo Studio Umbrella",
+      "installedScene": "a white reflective photography umbrella mounted with a studio flash beside a portrait background",
+      "detailScene": "a close angled view of the open umbrella canopy, ribs and center shaft attached to a flash stand"
+    },
+    {
+      "slug": "speed-light-bracket",
+      "name": "Speed Light Bracket",
+      "installedScene": "a speedlight flash mounted in an adjustable bracket with a small softbox on a portable studio light stand",
+      "detailScene": "a close three-quarter view of a speedlight bracket showing its adjustable clamp and light stand receiver"
+    },
+    {
+      "slug": "colour-flash-diffuser",
+      "name": "Colour Flash Diffuser",
+      "installedScene": "a colored gel diffuser fitted to an off-camera flash casting a subtle colored accent on a studio backdrop",
+      "detailScene": "a close view of interchangeable colored flash diffusers beside a compatible flash head on a tabletop"
+    },
+    {
+      "slug": "photography-barn-door",
+      "name": "Photography Barn Door",
+      "installedScene": "a four-leaf barn door fitted to a studio light shaping a narrow beam onto a product setup",
+      "detailScene": "a close three-quarter view of the four adjustable black metal barn-door flaps mounted to a studio light"
+    },
+    {
+      "slug": "video-light-led-studio-barndoor",
+      "name": "Video Light LED Studio Barndoor",
+      "installedScene": "an LED video light with open barndoors lighting an interview chair in a compact production studio",
+      "detailScene": "a close three-quarter view of illuminated LED panel, four black barndoor flaps and stand mount"
+    },
+    {
+      "slug": "light-box",
+      "name": "Light Box",
+      "installedScene": "a compact white light box illuminated for tabletop product photography with a small ceramic object inside",
+      "detailScene": "a close angled view of the light box's diffused walls, LED lighting and front opening"
+    },
+    {
+      "slug": "aluminium-black-camera-monopod",
+      "name": "Aluminium Black Camera Monopod",
+      "installedScene": "a black aluminium camera monopod extended and supporting a mirrorless camera during an indoor event shoot, no people",
+      "detailScene": "a close detail of black telescopic monopod sections, locking collars and camera mount"
+    },
+    {
+      "slug": "tripod-stand",
+      "name": "Tripod Stand",
+      "installedScene": "a black three-leg tripod stand fully extended holding a camera in a photography studio",
+      "detailScene": "a close angled view of the tripod's adjustable legs, locks and mounting head"
+    },
+    {
+      "slug": "monopod-single-tripod-stand",
+      "name": "Monopod Single Tripod Stand",
+      "installedScene": "a black monopod with small fold-out tripod feet supporting a camera in a studio",
+      "detailScene": "a close view of the monopod's fold-out tripod feet and height adjustment clamps"
+    },
+    {
+      "slug": "c-stand",
+      "name": "C Stand",
+      "installedScene": "a polished steel C stand with grip arm supporting a small studio flag beside a portrait lighting setup",
+      "detailScene": "a close view of the steel C stand's grip head, boom arm clamp and stable turtle-base legs"
+    }
+  ]
+}

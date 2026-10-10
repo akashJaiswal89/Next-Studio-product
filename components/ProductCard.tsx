@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import ProductCardImageCarousel from "./ProductCardImageCarousel";
 
 type P={slug:string,name:string,category:string,description:string,image:string};
 const WHATSAPP_NUMBER="918076900434";
@@ -9,7 +9,7 @@ export default function ProductCard({p}:{p:P}){
  const message=`Hello Tanisa Enterprises, I am interested in ${p.name}. Please share the wholesale details, availability and customization options.`;
  const whatsapp=`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
  return <article className="product-card">
-  <Link className="product-image-link" href={`/products/${p.slug}`} tabIndex={-1} aria-hidden="true"><div className="card-img"><img src={p.image} alt="" loading="lazy"/><span className="product-image-arrow"><ArrowUpRight size={18} /></span></div></Link>
+  <ProductCardImageCarousel product={p} />
   <div className="card-body">
    <span className="product-category">{p.category}</span>
    <h3><Link href={`/products/${p.slug}`}>{p.name}</Link></h3>

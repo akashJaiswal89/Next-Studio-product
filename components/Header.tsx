@@ -28,7 +28,7 @@ const navigationLinks = [
 
 export default function Header() {
   return <header className="header"><div className="container nav">
-    <Link className="brand" href="/"><img src="/assets/logo.jpg" alt="Tanisa Enterprises - Wholesale of Photography Instruments" /></Link>
+    <Link className="brand" href="/"><img src="/assets/logo-photo-video.webp" alt="Tanisa Enterprises - Photo and Video Equipment" /></Link>
     <nav className="navlinks" aria-label="Main navigation">
       {navigationLinks.slice(0, 2).map(({ href, label }) => <Link href={href} key={href}>{label}</Link>)}
       <NavigationMenu render={<div />}>

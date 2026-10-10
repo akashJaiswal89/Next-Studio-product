@@ -111,7 +111,7 @@ export const products = [
     "category": "Studio Photography Backdrops",
     "categorySlug": "studio-photography-backdrops",
     "description": "Passport photograph change system designed for studios and service centres that regularly produce ID and passport photographs. It helps switch background presentation efficiently while keeping the workflow organised. Background options, installation and quantity can be discussed for your setup.",
-    "image": "/assets/products/passport-photograph-change-system.jpg"
+    "image": "/assets/products/passport-photograph-change-system-v2.png"
   },
   {
     "slug": "white-diffuser-cloth",
@@ -167,7 +167,7 @@ export const products = [
     "category": "Backdrop Accessories",
     "categorySlug": "backdrop-accessories",
     "description": "Heavy-duty super clamps for securing studio accessories, backgrounds, lights and support equipment where compatible. Useful for flexible mounting and quick studio adjustments. Clamp configuration, mounting requirements and bulk quantities can be discussed for professional setups.",
-    "image": "/assets/products/super-clamps.jpg"
+    "image": "/assets/products/super-clamps-v2.jpg"
   },
   {
     "slug": "chroma-background-clip",
@@ -175,7 +175,7 @@ export const products = [
     "category": "Backdrop Accessories",
     "categorySlug": "backdrop-accessories",
     "description": "Chroma background clip for securing green-screen and other studio backgrounds neatly during photography and video production. It helps keep fabric or backdrop material positioned during a shoot. Clip quantity and compatible setup requirements can be discussed for your project.",
-    "image": "/assets/products/chroma-background-clip.jpg"
+    "image": "/assets/products/super-clamps.jpg"
   },
   {
     "slug": "umbrella-flash-bracket",

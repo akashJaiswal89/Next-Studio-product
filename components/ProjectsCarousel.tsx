@@ -81,8 +81,8 @@ export default function ProjectsCarousel() {
       <div className="container projects-heading">
         <div>
           <div className="eyebrow">Studios brought to life</div>
-          <h2 id="projects-heading">Our Work<span>.</span></h2>
-          <p>From classrooms to broadcast studios, explore our studio setups and the equipment behind them.</p>
+          <h2 id="projects-heading">Green Chroma Studio Setups<span>.</span></h2>
+          <p>Explore our green chroma setup work for classrooms and broadcast studios, complete with lighting and equipment installation.</p>
         </div>
         <button className="project-motion-toggle" type="button" onClick={() => setPaused(!paused)} aria-pressed={paused} aria-label={paused ? "Resume automatic project scrolling" : "Pause automatic project scrolling"}>
           {paused ? <Play size={16} aria-hidden="true" /> : <Pause size={16} aria-hidden="true" />}

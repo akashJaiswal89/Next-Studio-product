@@ -27,16 +27,22 @@ function useCarousel() {
 function Carousel({
   opts,
   plugins,
+  setApi,
   className,
   children,
   ...props
 }: React.HTMLAttributes<HTMLDivElement> & {
   opts?: Parameters<typeof useEmblaCarousel>[0];
   plugins?: Parameters<typeof useEmblaCarousel>[1];
+  setApi?: (api: CarouselApi) => void;
 }) {
   const [carouselRef, api] = useEmblaCarousel(opts, plugins);
   const [canScrollPrev, setCanScrollPrev] = React.useState(false);
   const [canScrollNext, setCanScrollNext] = React.useState(false);
+
+  React.useEffect(() => {
+    if (api) setApi?.(api);
+  }, [api, setApi]);
 
   React.useEffect(() => {
     if (!api) return;
